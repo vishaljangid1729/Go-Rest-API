@@ -4,8 +4,9 @@ import (
 	"os"
 	"time"
 
+	log "rest-api/logging"
+
 	"github.com/gin-gonic/gin"
-	"github.com/rs/zerolog/log"
 	"go.uber.org/zap"
 )
 
